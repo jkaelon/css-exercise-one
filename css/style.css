@@ -4,7 +4,7 @@ body {
 }
 
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   margin-bottom: 10px;
@@ -19,11 +19,17 @@ section {
   width: 60%;
 }
 
+/* text on the page */
 h1 {
   font-family: sans-serif;
   font-size: 2em;
 }
 
+h3 {
+  font-size: 1.3em;
+}
+
+/* use to adjust the top line of expansive text */
 .example, h3 {
   padding-top: 30px;
   text-align: center ;
@@ -31,12 +37,10 @@ h1 {
 
 .example {
   font-size: 4.9vw;
+  position: fixed;
 }
 
-h3 {
-  font-size: 1.3em;
-}
-
+/* controls for the look of the text boxes */
 .element {
   background-color: green;
   height: 100px;
